@@ -1,0 +1,73 @@
+
+.grid-data-parent-div{
+    display: grid;
+    height: 100vh;
+    padding: 20px;
+}
+
+.grid-data-header{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+}
+
+.primary-header,.secondary-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    height: 10vh;
+
+}
+
+#dropdown-select{
+    width: 100px;
+    height: 4vh;
+    font-size: 1rem;
+}
+
+.secondary-header{
+    justify-content: flex-end;
+}
+
+.primary-header-divider{
+    height: 5vh;
+    width: 2px;
+    background-color: #eeeeee;
+}
+
+.filter-div{
+    background-color: rgb(144 240 127 / 50%);
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.table-container{
+    height: 80vh;
+}
+
+thead{
+    background-color: #eeeeee;
+}
+
+.table-header-row, td, th{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    height: 100px;
+}
+
+td, th{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-grid-table{
+    overflow: auto;
+}
